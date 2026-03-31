@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlas Cortex — Your Personal AI. Runs Locally. Costs Nothing.</title>
+  <meta name="description" content="Atlas Cortex is an open-source, self-evolving personal AI platform. 100% offline, runs on consumer hardware, and costs nothing.">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta property="og:title" content="Atlas Cortex — Personal AI Platform">
+  <meta property="og:description" content="Self-evolving personal AI that runs locally on consumer hardware. Open source, 100% offline, costs nothing.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://atlascortex.dev">
+  <link rel="canonical" href="https://atlascortex.dev">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+</head>
+<body>
+
+<!-- ─── Nav ─── -->
+<nav class="nav" role="navigation" aria-label="Main">
+  <div class="nav-inner">
+    <a href="#" class="nav-brand" aria-label="Atlas Cortex home">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10"/>
+        <path d="M12 2a15 15 0 0 0-4 10 15 15 0 0 0 4 10"/>
+        <path d="M2 12h20"/>
+      </svg>
+      Atlas Cortex
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="#products">Products</a>
+      <a href="#architecture">Architecture</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#specs">Specs</a>
+      <a href="https://github.com/Betanu701/atlas-cortex" class="nav-cta" target="_blank" rel="noopener">GitHub →</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ─── Hero ─── -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span>🟢</span> Open Source &amp; Free Forever
+    </div>
+    <h1 class="hero-title">Atlas Cortex</h1>
+    <p class="hero-tagline">Your personal AI. Runs locally. Learns continuously. Costs nothing.</p>
+    <div class="hero-pills">
+      <span class="hero-pill"><span class="dot"></span> 100% Offline</span>
+      <span class="hero-pill"><span class="dot"></span> Open Source</span>
+      <span class="hero-pill"><span class="dot"></span> Self-Evolving</span>
+    </div>
+    <div class="hero-actions">
+      <a href="https://github.com/Betanu701/atlas-cortex" class="btn btn-primary" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.7.3 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+        Get Started
+      </a>
+      <a href="#products" class="btn btn-secondary">Learn More ↓</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Products ─── -->
+<section class="section" id="products">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label">Products</p>
+      <h2 class="section-title">The Atlas Family</h2>
+      <p class="section-desc">Four open-source products. One mission: AI that serves you — not the other way around.</p>
+    </div>
+
+    <div class="products-grid">
+      <!-- Cortex -->
+      <div class="product-card reveal">
+        <div class="product-icon cortex">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10"/><path d="M12 2a15 15 0 0 0-4 10 15 15 0 0 0 4 10"/><path d="M2 12h20"/></svg>
+        </div>
+        <h3>Atlas Cortex</h3>
+        <p class="product-subtitle">Personal AI Platform</p>
+        <ul>
+          <li>Self-evolving AI assistant with 4-layer pipeline</li>
+          <li>Voice, chat, and CLI interfaces</li>
+          <li>Home automation, scheduling, media, knowledge</li>
+          <li>90+ tok/s on consumer GPU (RX 7900 XT)</li>
+          <li>OpenAI-compatible API</li>
+        </ul>
+      </div>
+
+      <!-- Sight -->
+      <div class="product-card reveal">
+        <div class="product-icon sight">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <h3>Atlas Sight</h3>
+        <p class="product-subtitle">Accessibility Assistant</p>
+        <ul>
+          <li>Vision + voice assistant for visually impaired</li>
+          <li>Camera scene description, OCR text reading, navigation</li>
+          <li>100% offline — no subscriptions, no cloud tokens</li>
+          <li>Runs on phone (~1 GB RAM)</li>
+          <li>Voice and gesture interaction — no screen needed</li>
+        </ul>
+      </div>
+
+      <!-- CLI -->
+      <div class="product-card reveal">
+        <div class="product-icon cli">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+        </div>
+        <h3>Atlas CLI</h3>
+        <p class="product-subtitle">Standalone AI Brain</p>
+        <ul>
+          <li>Local AI coding/reasoning assistant</li>
+          <li>Multi-model routing (4B fast → 9B expert → 27B reasoning)</li>
+          <li>Code execution sandbox with self-correction</li>
+          <li>Session memory with crash recovery</li>
+          <li>No bloat — just the intelligence layer</li>
+        </ul>
+      </div>
+
+      <!-- Little Learner -->
+      <div class="product-card reveal">
+        <div class="product-icon learner">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        </div>
+        <h3>Atlas Little Learner</h3>
+        <p class="product-subtitle">Adaptive Education</p>
+        <ul>
+          <li>Early education for ages 18 months to 5 years</li>
+          <li>7 skill modules, adaptive difficulty</li>
+          <li>Toddler-friendly voice interaction</li>
+          <li>Frustration detection, safety limits</li>
+          <li>Parent dashboard</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Architecture ─── -->
+<section class="section" id="architecture">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label">Under the Hood</p>
+      <h2 class="section-title">Architecture</h2>
+      <p class="section-desc">A lean pipeline that goes from raw input to intelligent response in milliseconds.</p>
+    </div>
+
+    <div class="arch-diagram reveal">
+      <div class="arch-flow">
+        <span class="arch-node engine">llama.cpp</span>
+        <span class="arch-arrow">→</span>
+        <span class="arch-node router">Model Router</span>
+        <span class="arch-arrow">→</span>
+        <span class="arch-node router">Thinking Router</span>
+        <span class="arch-arrow">→</span>
+        <span class="arch-node pipe">Layer 0 · Context</span>
+        <span class="arch-arrow">→</span>
+        <span class="arch-node pipe">Layer 1 · Instant</span>
+        <span class="arch-arrow">→</span>
+        <span class="arch-node pipe">Layer 2 · Plugins</span>
+        <span class="arch-arrow">→</span>
+        <span class="arch-node pipe">Layer 3 · LLM</span>
+      </div>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card reveal">
+        <div class="stat-value">110</div>
+        <div class="stat-label">Tokens / second</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-value">100%</div>
+        <div class="stat-label">CAG Recall</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-value">2,825+</div>
+        <div class="stat-label">Cortex Tests</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-value">347+</div>
+        <div class="stat-label">Sight Tests</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Privacy ─── -->
+<section class="section privacy-section" id="privacy">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label">Privacy</p>
+      <h2 class="section-title">We collect nothing.</h2>
+      <p class="section-desc">Your data never leaves your device. No telemetry, no tracking, no cloud. Open source — verify it yourself.</p>
+    </div>
+
+    <div class="privacy-grid">
+      <div class="privacy-card reveal">
+        <div class="privacy-card-icon">🔒</div>
+        <h4>On-Device Only</h4>
+        <p>100% of processing happens locally on your hardware. Nothing is sent anywhere.</p>
+      </div>
+      <div class="privacy-card reveal">
+        <div class="privacy-card-icon">🚫</div>
+        <h4>No Telemetry</h4>
+        <p>Zero analytics, zero tracking, zero phone-home. We don't even have a server to receive data.</p>
+      </div>
+      <div class="privacy-card reveal">
+        <div class="privacy-card-icon">🔍</div>
+        <h4>Fully Auditable</h4>
+        <p>Every line of code is open source under MIT. Read it, fork it, verify it.</p>
+      </div>
+      <div class="privacy-card reveal">
+        <div class="privacy-card-icon">🛡️</div>
+        <h4>Your Data, Period</h4>
+        <p>Conversations, memories, knowledge — stored locally, encrypted at rest, owned by you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Tech Specs ─── -->
+<section class="section" id="specs">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label">Technical</p>
+      <h2 class="section-title">Tech Specs</h2>
+      <p class="section-desc">Built for consumer hardware. No data center required.</p>
+    </div>
+
+    <table class="specs-table reveal">
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>GPU Support</td>
+          <td>
+            <span class="spec-tag">AMD RX 7000+</span>
+            <span class="spec-tag">NVIDIA RTX 3060+</span>
+            <span class="spec-tag">Apple Silicon</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Models</td>
+          <td>
+            <span class="spec-tag">Qwen3.5 4B</span>
+            <span class="spec-tag">Qwen3.5 9B</span>
+            <span class="spec-tag">Qwen3.5 27B</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Inference</td>
+          <td>llama.cpp with TurboQuant KV cache</td>
+        </tr>
+        <tr>
+          <td>Context Window</td>
+          <td>262K tokens</td>
+        </tr>
+        <tr>
+          <td>LoRA Adapters</td>
+          <td>20+ domains — coding, medical, engineering, education, creative writing, and more</td>
+        </tr>
+        <tr>
+          <td>Voice</td>
+          <td>Multi-provider TTS/STT — Qwen3-TTS, Fish Audio, Orpheus, Kokoro, Piper, Whisper</td>
+        </tr>
+        <tr>
+          <td>API</td>
+          <td>OpenAI-compatible REST API on port 5100</td>
+        </tr>
+        <tr>
+          <td>Deployment</td>
+          <td>Docker Compose stack with GPU auto-detection</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ─── Footer ─── -->
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="nav-brand" style="color:var(--text);">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10"/><path d="M12 2a15 15 0 0 0-4 10 15 15 0 0 0 4 10"/><path d="M2 12h20"/></svg>
+          Atlas Cortex
+        </a>
+        <p>An independent open-source project by Digitalbrainstem. Not affiliated with, endorsed by, or connected to any other company or product.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Project</h5>
+          <a href="https://github.com/Betanu701/atlas-cortex" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://github.com/Betanu701/atlas-cortex/blob/main/LICENSE" target="_blank" rel="noopener">License (MIT)</a>
+          <a href="https://github.com/Betanu701/atlas-cortex/issues" target="_blank" rel="noopener">Issues</a>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <a href="privacy.html">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <p>Atlas Cortex is an independent open-source project by Digitalbrainstem.</p>
+      <p>Not affiliated with, endorsed by, or connected to any other company or product.</p>
+      <p>All other trademarks are property of their respective owners.</p>
+      <p style="margin-top:.75rem;">© 2025 Digitalbrainstem. Released under the MIT License.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

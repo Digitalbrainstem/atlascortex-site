@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Atlas Cortex</title>
+  <meta name="description" content="Atlas Cortex privacy policy. TL;DR: We collect nothing.">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="canonical" href="https://atlascortex.dev/privacy.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+</head>
+<body>
+
+<!-- ─── Nav ─── -->
+<nav class="nav" role="navigation" aria-label="Main">
+  <div class="nav-inner">
+    <a href="/" class="nav-brand" aria-label="Atlas Cortex home">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10"/>
+        <path d="M12 2a15 15 0 0 0-4 10 15 15 0 0 0 4 10"/>
+        <path d="M2 12h20"/>
+      </svg>
+      Atlas Cortex
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="/#products">Products</a>
+      <a href="/#architecture">Architecture</a>
+      <a href="/#privacy">Privacy</a>
+      <a href="/#specs">Specs</a>
+      <a href="https://github.com/Betanu701/atlas-cortex" class="nav-cta" target="_blank" rel="noopener">GitHub →</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ─── Header ─── -->
+<header class="page-header">
+  <div class="container">
+    <p class="section-label">Legal</p>
+    <h1 class="section-title">Privacy Policy</h1>
+    <p class="section-desc" style="margin:0 auto;">Last updated: January 2025</p>
+  </div>
+</header>
+
+<!-- ─── Content ─── -->
+<main class="prose">
+
+  <h2>TL;DR</h2>
+  <p><strong>We collect nothing. Zero. Zilch.</strong> Atlas Cortex runs entirely on your device. There are no servers, no accounts, no analytics, and no telemetry. Your data never leaves your hardware.</p>
+
+  <h2>1. What Atlas Cortex Is</h2>
+  <p>Atlas Cortex is open-source software that runs locally on your personal hardware. It is not a hosted service, cloud product, or SaaS platform. When you use Atlas Cortex, you are running the software on your own device — we have no access to your device, your data, or your usage.</p>
+
+  <h2>2. Data We Collect</h2>
+  <p><strong>None.</strong></p>
+  <p>Atlas Cortex does not:</p>
+  <ul>
+    <li>Collect personal information</li>
+    <li>Track usage or behavior</li>
+    <li>Send telemetry or analytics</li>
+    <li>Phone home to any server</li>
+    <li>Require an account or registration</li>
+    <li>Use cookies, fingerprinting, or any tracking technology</li>
+  </ul>
+
+  <h2>3. Data Stored on Your Device</h2>
+  <p>Atlas Cortex stores data locally on your device to function. This includes:</p>
+  <ul>
+    <li><strong>Conversations:</strong> Chat history is stored in a local SQLite database.</li>
+    <li><strong>Memory:</strong> Long-term knowledge and context is stored locally.</li>
+    <li><strong>Configuration:</strong> Your settings, preferences, and Home Assistant tokens are stored in local files.</li>
+    <li><strong>Models:</strong> AI model weights are downloaded from Hugging Face and cached locally.</li>
+    <li><strong>LoRA Adapters:</strong> Fine-tuned adapters are stored in local directories.</li>
+  </ul>
+  <p>All of this data is under your full control. You can inspect it, back it up, move it, or delete it at any time.</p>
+
+  <h2>4. Third-Party Services</h2>
+  <p>Atlas Cortex is designed to be 100% offline. However, some optional features may connect to external services <strong>only when you explicitly configure them</strong>:</p>
+  <ul>
+    <li><strong>Home Assistant:</strong> If you configure a Home Assistant URL and token, Atlas Cortex will communicate with your Home Assistant instance on your local network.</li>
+    <li><strong>Weather/News APIs:</strong> Some plugins may fetch data from public APIs if you enable them. These requests do not include personal data.</li>
+    <li><strong>Hugging Face:</strong> Model downloads come from Hugging Face. Standard Hugging Face download policies apply.</li>
+  </ul>
+  <p>None of these connections send your conversations, personal data, or usage patterns to any third party.</p>
+
+  <h2>5. Children's Privacy</h2>
+  <p>Atlas Little Learner is designed for children ages 18 months to 5 years. Because all processing happens on-device, no children's data is collected, stored remotely, or shared with anyone. The application includes content safety guardrails and age-appropriate content filtering.</p>
+
+  <h2>6. This Website</h2>
+  <p>This website (atlascortex.dev) is a static site hosted on GitHub Pages. We do not use cookies, analytics, or tracking scripts. GitHub Pages may collect standard server logs (IP addresses, user agents) as part of their hosting service — see <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection" target="_blank" rel="noopener">GitHub's privacy practices</a> for details.</p>
+
+  <h2>7. Open Source Verification</h2>
+  <p>Atlas Cortex is released under the MIT License. The entire source code is publicly available on <a href="https://github.com/Betanu701/atlas-cortex" target="_blank" rel="noopener">GitHub</a>. You can audit every line of code to verify these claims yourself.</p>
+
+  <h2>8. Changes to This Policy</h2>
+  <p>If we ever change this policy, it will be to collect <em>even less</em> data (which is hard when the answer is already zero). Any changes will be reflected in the "Last updated" date above and committed to the public repository.</p>
+
+  <h2>9. Contact</h2>
+  <p>Questions about this policy? Open an issue on <a href="https://github.com/Betanu701/atlas-cortex/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+
+</main>
+
+<!-- ─── Footer ─── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-legal">
+      <p>Atlas Cortex is an independent open-source project by Digitalbrainstem.</p>
+      <p>Not affiliated with, endorsed by, or connected to any other company or product.</p>
+      <p>All other trademarks are property of their respective owners.</p>
+      <p style="margin-top:.75rem;">© 2025 Digitalbrainstem. Released under the MIT License.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
