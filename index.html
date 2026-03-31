@@ -319,7 +319,7 @@
         </tr>
         <tr>
           <td>Context Window</td>
-          <td>262K tokens</td>
+          <td>Up to 262K tokens (model dependent)</td>
         </tr>
         <tr>
           <td>LoRA Adapters</td>
@@ -339,6 +339,31 @@
         </tr>
       </tbody>
     </table>
+
+    <div class="reveal" style="margin-top: 3rem;">
+      <p class="section-label">Open Source Stack</p>
+      <p class="section-desc">Atlas Cortex is built on incredible open-source projects. Core functionality requires only llama.cpp and a Qwen model — everything else is optional and swappable.</p>
+      <div class="privacy-grid" style="margin-top: 1.5rem;">
+        <div class="privacy-card reveal">
+          <h4>🧠 Core (Required)</h4>
+          <p><a href="https://github.com/ggml-org/llama.cpp" target="_blank" rel="noopener">llama.cpp</a> — Inference engine<br>
+          <a href="https://huggingface.co/Qwen" target="_blank" rel="noopener">Qwen3.5</a> — Language models (Apache 2.0)</p>
+        </div>
+        <div class="privacy-card reveal">
+          <h4>🗣️ Voice (Optional)</h4>
+          <p><a href="https://github.com/QwenLM/Qwen3-TTS" target="_blank" rel="noopener">Qwen3-TTS</a> — Primary TTS<br>
+          <a href="https://github.com/fishaudio/fish-speech" target="_blank" rel="noopener">Fish Audio</a> — Character voices<br>
+          <a href="https://github.com/rhasspy/piper" target="_blank" rel="noopener">Piper</a> — Ultra-fast CPU TTS<br>
+          <a href="https://github.com/ggml-org/whisper.cpp" target="_blank" rel="noopener">Whisper.cpp</a> — Speech-to-text</p>
+        </div>
+        <div class="privacy-card reveal">
+          <h4>⚡ Platform (Optional)</h4>
+          <p><a href="https://rocm.docs.amd.com" target="_blank" rel="noopener">AMD ROCm</a> — AMD GPU acceleration<br>
+          <a href="https://developer.nvidia.com/cuda-toolkit" target="_blank" rel="noopener">NVIDIA CUDA</a> — NVIDIA GPU acceleration<br>
+          <a href="https://github.com/huggingface/peft" target="_blank" rel="noopener">PEFT</a> — LoRA adapter training</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
