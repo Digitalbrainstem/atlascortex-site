@@ -48,7 +48,7 @@
   <div class="container">
     <p class="section-label">Legal</p>
     <h1 class="section-title">Privacy Policy</h1>
-    <p class="section-desc" style="margin:0 auto;">Last updated: January 2025</p>
+    <p class="section-desc" style="margin:0 auto;">Last updated: July 2025</p>
   </div>
 </header>
 
@@ -84,7 +84,16 @@
   </ul>
   <p>All of this data is under your full control. You can inspect it, back it up, move it, or delete it at any time.</p>
 
-  <h2>4. Third-Party Services</h2>
+  <h2>4. Camera, Microphone &amp; Sensors</h2>
+  <p>Atlas Sight and voice features may access your device's camera and microphone. All processing happens entirely on your local hardware:</p>
+  <ul>
+    <li><strong>Camera:</strong> Video frames are processed by on-device vision models. No images or video are transmitted, uploaded, or stored remotely.</li>
+    <li><strong>Microphone:</strong> Audio is transcribed locally using on-device speech-to-text models (Whisper.cpp). No audio recordings leave your device.</li>
+    <li><strong>Text-to-Speech:</strong> Voice responses are generated locally. No text is sent to cloud services for synthesis.</li>
+  </ul>
+  <p>You can verify this by inspecting the source code or monitoring your network traffic — Atlas Cortex makes zero outbound connections for any media processing.</p>
+
+  <h2>5. Third-Party Services</h2>
   <p>Atlas Cortex is designed to be 100% offline. However, some optional features may connect to external services <strong>only when you explicitly configure them</strong>:</p>
   <ul>
     <li><strong>Home Assistant:</strong> If you configure a Home Assistant URL and token, Atlas Cortex will communicate with your Home Assistant instance on your local network.</li>
@@ -93,19 +102,30 @@
   </ul>
   <p>None of these connections send your conversations, personal data, or usage patterns to any third party.</p>
 
-  <h2>5. Children's Privacy</h2>
+  <h2>6. Children's Privacy</h2>
   <p>Atlas Little Learner is designed for children ages 18 months to 5 years. Because all processing happens on-device, no children's data is collected, stored remotely, or shared with anyone. The application includes content safety guardrails and age-appropriate content filtering.</p>
 
-  <h2>6. This Website</h2>
+  <h2>7. This Website</h2>
   <p>This website (atlascortex.dev) is a static site hosted on GitHub Pages. We do not use cookies, analytics, or tracking scripts. GitHub Pages may collect standard server logs (IP addresses, user agents) as part of their hosting service — see <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection" target="_blank" rel="noopener">GitHub's privacy practices</a> for details.</p>
 
-  <h2>7. Open Source Verification</h2>
+  <h2>8. Open Source Verification</h2>
   <p>Atlas Cortex is released under the MIT License. The entire source code is publicly available on <a href="https://github.com/Digitalbrainstem/atlas-cortex" target="_blank" rel="noopener">GitHub</a>. You can audit every line of code to verify these claims yourself.</p>
 
-  <h2>8. Changes to This Policy</h2>
+  <h2>9. GDPR, CCPA &amp; Regulatory Compliance</h2>
+  <p>Atlas Cortex is compliant with GDPR, CCPA, and similar data protection regulations <strong>by design</strong>. Because no personal data is collected, transmitted, or processed by us, there is nothing to regulate:</p>
+  <ul>
+    <li><strong>Right to access:</strong> There is no data held by us to access.</li>
+    <li><strong>Right to deletion:</strong> All data is on your device — delete it anytime.</li>
+    <li><strong>Right to portability:</strong> Your local SQLite databases and config files are yours to move freely.</li>
+    <li><strong>Data processing agreements:</strong> Not applicable — we never process your data.</li>
+    <li><strong>Data breach notification:</strong> Not applicable — we hold no data to breach.</li>
+  </ul>
+  <p>No data means no compliance burden. This is privacy by architecture, not by policy.</p>
+
+  <h2>10. Changes to This Policy</h2>
   <p>If we ever change this policy, it will be to collect <em>even less</em> data (which is hard when the answer is already zero). Any changes will be reflected in the "Last updated" date above and committed to the public repository.</p>
 
-  <h2>9. Contact</h2>
+  <h2>11. Contact</h2>
   <p>Questions about this policy? Open an issue on <a href="https://github.com/Digitalbrainstem/atlas-cortex/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 
 </main>
@@ -117,7 +137,7 @@
       <p>Atlas Cortex is an independent open-source project by Digitalbrainstem.</p>
       <p>Not affiliated with, endorsed by, or connected to any other company or product.</p>
       <p>All other trademarks are property of their respective owners.</p>
-      <p style="margin-top:.75rem;">© 2025 Digitalbrainstem. Released under the MIT License.</p>
+      <p style="margin-top:.75rem;">© 2026 Digitalbrainstem. Released under the MIT License.</p>
     </div>
   </div>
 </footer>
